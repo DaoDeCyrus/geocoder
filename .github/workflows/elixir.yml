@@ -14,11 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         # https://repo.hex.pm/builds/elixir/builds.txt
-        elixir: [1.13, 1.14, 1.15]
+        elixir: [1.14, 1.15]
         otp: [24.x, 25.x, 26.x]
-        exclude:
-          - elixir: 1.13
-            otp: 26.x
         include:
           - elixir: 1.14
             otp: 25.x
