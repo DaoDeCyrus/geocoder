@@ -2,7 +2,7 @@ defmodule Geocoder.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/CyrusOfEden/geocoder"
-  @version "2.1.1"
+  @version "2.2.0"
 
   def project do
     [
@@ -32,7 +32,7 @@ defmodule Geocoder.Mixfile do
       licenses: ["MIT"],
       maintainers: ["Cyrus Nouroozi", "Arjan Scherpenisse", "Michael Bianco", "epinault"],
       links: %{
-        "Changelog" => "https://github.com/CyrusOfEden/geocoder/releases",
+        "Changelog" => "https://github.com/CyrusNuevoDia/geocoder/releases",
         "GitHub" => @source_url
       }
     ]
