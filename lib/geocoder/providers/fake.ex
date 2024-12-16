@@ -42,7 +42,7 @@ defmodule Geocoder.Providers.Fake do
     {:ok, List.wrap(coords)}
   end
 
-  defp parse_geocode(nil), do: @error
+  defp parse_geocode(nil), do: {:ok, []}
 
   defp parse_geocode(loaded_config) do
     coords = geocode_coords(loaded_config)
