@@ -1,6 +1,21 @@
 [Unreleased]
 
-[2.0.0]
+[2.1.0] - 2024-12-16
+
+### Changes
+
+- Change minimum Elixir version to 1.14 as 1.13 is about to be no longer supported
+- Package updates
+- Support default worker configuration
+- Fix some missing typespecs
+
+[2.0.1] - 2023-08-18
+
+### Changes
+
+- Updates Copyright
+
+[2.0.0] - 2023-08-10
 
 ** BREAKING**
 

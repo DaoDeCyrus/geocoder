@@ -2,13 +2,13 @@ defmodule Geocoder.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/CyrusOfEden/geocoder"
-  @version "2.0.1"
+  @version "2.1.1"
 
   def project do
     [
       app: :geocoder,
       version: @version,
-      elixir: "~> 1.13",
+      elixir: "~> 1.14",
       otp: "~> 24",
       elixirc_paths: elixirc_paths(Mix.env()),
       build_embedded: Mix.env() == :prod,
