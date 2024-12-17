@@ -1,6 +1,12 @@
 [Unreleased]
 
-[2.1.0] - 2024-12-16
+[2.2.1] - 2024-12-17
+
+### Changes
+
+- Fix Geocoder.Providers.Fake returns {:error, nil} when nothing is found on call_list/1 #131
+
+[2.2.0] - 2024-12-16
 
 ### Changes
 
@@ -8,6 +14,12 @@
 - Package updates
 - Support default worker configuration
 - Fix some missing typespecs
+
+[2.1.0] - 2024-12-16
+
+### Changes
+
+- Version was skipped accidentally. but same as 2.2.0
 
 [2.0.1] - 2023-08-18
 
